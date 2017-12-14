@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fmoya.horoscopo_chino.PasoHoroscopo">
+
+    <Button
+        android:id="@+id/btnHoroscopo"
+        android:layout_width="176dp"
+        android:layout_height="96dp"
+        android:layout_x="115dp"
+        android:layout_y="202dp"
+        android:background="@drawable/button"
+        android:onClick="clkHoroscopo"
+        android:text="Ir a Horóscopo"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="340dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="clkModificar"
+        android:text="Modificar datos"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="37dp"
+        android:text="Bienvenid@"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_width="193dp"
+        android:layout_height="40dp"
+        android:layout_x="103dp"
+        android:layout_y="113dp"
+        android:text="."
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="140dp" />
+</AbsoluteLayout>

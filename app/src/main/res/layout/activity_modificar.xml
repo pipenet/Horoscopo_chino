@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fmoya.horoscopo_chino.Modificar">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="97dp"
+        android:layout_y="14dp"
+        android:text="Modificar datos"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="57dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="111dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="361dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="clkModificar"
+        android:text="Modificar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Modificar" />
+
+    <EditText
+        android:id="@+id/edtDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="247dp"
+        android:ems="10"
+        android:hint="día"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/edtMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="194dp"
+        android:ems="10"
+        android:hint="mes"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/edtAnio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="298dp"
+        android:ems="10"
+        android:hint="año"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="167dp"
+        android:text="Datos de nacimiento"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="428dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="clkBorrar"
+        android:text="Borrar"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
+</AbsoluteLayout>
+

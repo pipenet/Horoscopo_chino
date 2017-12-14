@@ -1,0 +1,112 @@
+<resources>
+    <!-- títulos-->
+    <string name="app_name">Horoscopo Chino</string>
+    <string name="rataTitle">Rata</string>
+    <string name="bufaloTitle">Búfalo</string>
+    <string name="tigreTitle">Tigre</string>
+    <string name="liebreTitle">Liebre</string>
+    <string name="dragonTitle">Dragón</string>
+    <string name="serpienteTitle">Serpiente</string>
+    <string name="caballoTitle">Caballo</string>
+    <string name="cabraTitle">Cabra</string>
+    <string name="monoTitle">Mono</string>
+    <string name="galloTitle">Gallo</string>
+    <string name="perroTitle">Perro</string>
+    <string name="jabaliTitle">Jabalí</string>
+
+    <!--años-->
+    <string name="ratayears">Años de la rata:
+1900, 1912, 1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, 2020.</string>
+    <string name="bufaloyears">Años del búfalo:
+1901, 1913, 1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, 2021.</string>
+    <string name="tigreyears">Años del tigre:
+1902, 1914, 1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010, 2022.</string>
+    <string name="liebreyears">Años de la liebre:
+1903, 1915, 1927, 1939, 1951, 1963, 1975, 1987, 1999, 2023.</string>
+    <string name="dragonyears">Años del dragón:
+1904, 1916, 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, 2024.</string>
+    <string name="serpienteyears">Años de la serpiente:
+1905, 1917, 1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013, 2025.</string>
+    <string name="caballoyears">Años del caballo:
+1906, 1918, 1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014, 2026.</string>
+    <string name="cabrayears">Años de la cabra:
+1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015.</string>
+    <string name="monoyears">Años del mono
+1908, 1920, 1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016, 2028.</string>
+    <string name="galloyears">Años del gallo:
+1909, 1921, 1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017, 2029.</string>
+    <string name="perroyears">Años del perro:
+1910, 1922, 1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030.</string>
+    <string name="jabaliyears">Años del Jabalí:
+1911, 1923, 1935, 1947, 1971, 1983, 1995, 2007, 2019, 2031</string>
+
+    <!--Textos-->
+    <string name="rataText">Te verás beneficiado con la llegada
+        del Gallo, los negocios y el trabajo serán muy ventajosos. Se trata de una etapa de
+        fertilidad ideal para comenzar nuevos proyectos o bien renovar la vida laboral.
+        Pero deberás ser disciplinado y seguir las reglas. </string>
+    <string name="bufaloText">Este año te liberarás de viejas ataduras y emprenderás un camino de
+        superación, tanto en lo personal como en el ámbito laboral y material. Será un año muy
+        productivo pero deberás ser más flexible. Deberás evitar perder la paciencia o situarse en
+        lugares rígidos de exigencia hacia el otro.</string>
+    <string name="tigreText">Será un mejor año que el anterior. Sin embargo, no deberás asumir
+        grandes riesgos, sino más bien
+        trabajar y conservar lo que hasta ahora has conseguido. Excelente año para manifestar tu
+        costado más artístico y creativo. En el amor comenzarás complicado pero mejorarás a medida
+        que el año avance.</string>
+    <string name="liebreText">Este año surgirán nuevas oportunidades, pero deberás estar atento al
+        tomar decisiones, pues exigirá compromiso, enfoque y determinación. Aprenderás mucho a través
+        de las asociaciones y alianzas que establezcas, reconocerás tus propósitos y
+        necesidades. Tu relación en pareja podrá afianzarse o terminar para siempre. </string>
+    <string name="dragonText">Buen tiempo para aprender, estudiar, publicitar o promocionarse. El
+        peligro estará en querer hacer muchas cosas al mismo tiempo y disgregarse.
+        Habrá mucha actividad pero poco tiempo para disfrutar en casa, lo cual puede hacerte perder
+        el buen humor.  Es momento de hacer una evaluación y decidir ir más despacio.</string>
+    <string name="serpienteText">Aparecerán
+        oportunidades, estarás motivado y tendrás buen juicio para poner en marcha planes bien
+        concretos. La habilidad y majestuosidad que despliega el Gallo de fuego, la Serpiente la
+        capitalizará en el manejo de las relaciones públicas, se abrirán nuevas puertas. </string>
+    <string name="caballoText">No será un año del todo fácil y las
+        contradicciones estarán a la orden del día. Pero tendrás la oportunidad de ser más
+        consciente de las propias debilidades y contar con las herramientas para transformarlas.
+        Suavizar el carácter. Deberás encontrar un punto de equilibrio en la relación.</string>
+    <string name="cabraText">Te sentirás optimistas y lograrás una posición estable y segura.
+        Deberás esforzarte pero alcanzarás grandes metas, ya que contarás con una importante claridad
+        mental para actuar en el momento oportuno. </string>
+    <string name="monoText">Será una etapa de concreciones,
+        ideal para desarrollar y concluir proyectos iniciados el año anterior. Durante 2016, el año
+        del Mono, han comenzado una nueva etapa, un nuevo ciclo de 12 años. El Gallo les pedirá
+        ahora concreciones materiales, responsabilidad y empeño. </string>
+    <string name="galloText">Con una actitud más práctica y decidida, sentirás
+        que nada está fuera de tu alcance. Sabrás administrar su intensa energía con más
+        inteligencia y tendrás la posibilidad de conocer gente influyente que te beneficiará
+        en su profesión. Las parejas se encenderán, pudiendo
+        reavivar la relación o bien poniéndola en crisis.</string>
+    <string name="perroText">No será conveniente
+        realizar cambios profundos ni definitivos, sino más bien esperar para tomar grandes
+        decisiones. En 2017 la independencia será su foco pero deberán tener especial cuidado
+        con los conflictos a nivel laboral, con perder la paciencia. Aceptación y mayor independencia serán la
+        clave para vivir en armonía el amor.</string>
+    <string name="jabaliText">Será un buen año para ti, el Gallo te sabrá guiar por el camino
+        de su propia evolución. Tu energía de fuego te invitará a tomar el control de tu vida y a
+        actuar con energía y decisión. El trabajo en equipo, la vida social y los amigos ocuparán un
+        lugar preponderante durante este año.</string>
+
+    <!--otros-->
+    <string name="textview">rataText</string>
+    <string name="volver_al_inicio">Volver al Inicio</string>
+    <string name="rata">rata</string>
+    <string name="textview2">ratayear</string>
+    <string name="minombre">minombre</string>
+    <string name="hor_scopo_chino">Horóscopo Chino</string>
+    <string name="saludo">Ingresa o regístrate, presionando uno de los dos botones</string>
+    <string name="email">email@email.com</string>
+    <string name="password">password</string>
+    <string name="button">Salir</string>
+    <string name="salir">Salir</string>
+    <string name="seleccionaSigno">Selecciona tu signo</string>
+    <string name="title_activity_conejo">Conejo</string>
+    <string name="ingresa">Ingresar</string>
+    <string name="registra">Registrarse</string>
+    <string name="title_activity_ingreso_sistema">IngresoSistema</string>
+</resources>

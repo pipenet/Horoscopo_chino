@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fmoya.horoscopo_chino.Login"
+    tools:ignore="Deprecated">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="338dp"
+        android:text="@string/saludo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="31dp"
+        android:text="@string/hor_scopo_chino"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="272dp"
+        android:layout_x="73dp"
+        android:layout_y="62dp"
+        app:srcCompat="@drawable/chinorata"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="422dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="clkIngresar"
+        android:text="@string/ingresa"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="421dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:onClick="clkRegistrar"
+        android:text="@string/registra"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+
+</AbsoluteLayout>
+

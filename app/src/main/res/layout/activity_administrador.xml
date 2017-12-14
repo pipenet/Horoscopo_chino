@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fmoya.horoscopo_chino.Administrador">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="5dp"
+        android:text="Administrar"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edtSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="62dp"
+        android:ems="10"
+        android:hint="Signo"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/edtLegend"
+        android:layout_width="306dp"
+        android:layout_height="104dp"
+        android:layout_x="37dp"
+        android:layout_y="118dp"
+        android:ems="10"
+        android:hint="Destino"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/edtElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="229dp"
+        android:ems="10"
+        android:hint="Elemento"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="284dp"
+        android:ems="10"
+        android:hint="Años"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="389dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="clkModificar"
+        android:text="Agregar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Agregar" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="335dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="clkModificar"
+        android:text="Modificar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Modificar" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="443dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Listar usuarios"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+
+
+
+
+
+</AbsoluteLayout>
+
